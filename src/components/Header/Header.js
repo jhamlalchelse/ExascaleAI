@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <header>
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+        <div className="flex justify-between items-center mx-auto max-w-screen-xl">
           <Link href="/">
             <img
               src="assets/images/logo.svg"
@@ -36,7 +36,8 @@ const Header = () => {
             />
           </Link>
 
-          {/* <div className="flex items-center lg:order-2">
+          {/* mobile  */}
+          <div className="flex items-center lg:order-2">
             <button
               data-collapse-toggle="mobile-menu-2"
               type="button"
@@ -70,7 +71,7 @@ const Header = () => {
                 ></path>
               </svg>
             </button>
-          </div> */}
+          </div>
 
           <div
             className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
