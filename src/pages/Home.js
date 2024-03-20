@@ -64,7 +64,7 @@ const Home = () => {
           <img
             src="assets/images/AIpowered.svg"
             className="w-full md:w-8/12 lg:w-auto lg:order-2"
-            alt="Exasclae Logo"
+            alt="AI Powered image"
           />
 
           {/* Text Content */}
@@ -90,7 +90,7 @@ const Home = () => {
                     <img
                       src="assets/images/checkbox.svg"
                       className="w-8 h-8"
-                      alt="checkbox"
+                      alt="Checkbox image"
                     />
                     <span>{item}</span>
                   </li>
@@ -123,7 +123,7 @@ const Home = () => {
           <img
             src="assets/images/robot.svg"
             className="w-full h-96 lg:order-2"
-            alt="robot"
+            alt="Robot image"
           />
 
           {/* Text Content */}
@@ -183,7 +183,7 @@ const Home = () => {
         <img
           src="assets/images/proccess.svg"
           className="w-full md:h-[400px] pb-3 px-1 md:px-0 md:pb-0"
-          alt="proccess"
+          alt="Proccess image"
         />
       </div>
       <form
